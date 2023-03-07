@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p {
+  background-color: #dde0e3;
+}
+
+em,
+strong {
+  background-color: #b2d6ff;
+  display: inline;
+}
+
+/*
+Behaviors
+1. Block boxes always appear below the previous block element.
+2. The width of block boxes is set automatically based on the width of the parent container.
+3. The default height of block boxes is based on the content it contains.
+4. Inline boxes don't affect vertical spacing.
+5. Width of inline boxes is based on the content.
+note: it is never a good practice to change the inline level element into block level element
+*/
+
+h1 {
+  margin: 1;
+  padding: 50px;
+  border: 1px solid #5d6060;
+}
+
+/* padding
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+p {
+  padding: 20px 10px 20px 10px;
+}
+
+
+p {
+  padding: 20px 10px;
+  margin-bottom: 50px;
+}
+*/
+p {
+  padding: 20px 10px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+div {
+  color: #fff;
+  background-color: #5995da;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #5d6063;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100px;
+}
