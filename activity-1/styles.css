@@ -1,10 +1,31 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  box-sizing: 0;
 }
 
 h1 {
-  background-color: aqua;
-  border: 5 solid;
+  background-color: skyblue;
+  margin: 10px;
+  padding: 10px 5px;
+  font-size: 1.5em;
+  width: 50%;
+}
+
+.lorem-ipsum {
+  font-size: large;
+  font-weight: bold;
+  width: 50%;
+  background-color: skyblue;
+
+  margin: 10px;
+  padding: 10px 5px;
+}
+
+.text-and-button {
+  width: 1270px;
+  background-color: skyblue;
+  text-align: center;
+  padding: 10px;
+  margin-left: 8px;
 }
