@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  box-sizing: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: silver;
+  padding-left: 10px;
+  padding: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+#paragraphs {
+  background-color: silver;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  width: 100%;
+}
+
+#blocks {
+  background-color: silver;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 5px;
+  width: 100%;
+}
+
+em,
+strong {
+  background-color: aqua;
+}
+
+div {
+  background-color: aqua;
+  color: white;
+  border: solid black;
+
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 1% 48% 1% 48%;
+}
